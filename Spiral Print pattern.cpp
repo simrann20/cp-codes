@@ -51,10 +51,6 @@ void spiralPrint(int input[][1000], int n, int m){
   }
   
 }
-#include <iostream>
-using namespace std;
-#include "solution.h"
-
 int main() {
     int input[1500][1000];
     int row, col;
