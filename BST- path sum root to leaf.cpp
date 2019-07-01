@@ -1,3 +1,7 @@
+#include<iostream>
+#include<string>
+#include<queue>
+using namespace std;
 class BinaryTreeNode {
     public : 
     T data;
@@ -10,7 +14,7 @@ class BinaryTreeNode {
         right = NULL;
     }
 };
-#include<string>
+
 void helper(BinaryTreeNode<int> *root, int k, int a[],int s) {
    
   if(root==NULL||k<0)
@@ -41,9 +45,6 @@ void rootToLeafPathsSumToK(BinaryTreeNode<int> *root, int k)
   helper(root,k,a,0);
    
 }
-
-#include <iostream>
-#include <queue>
 
 template <typename T>
 class BinaryTreeNode {
