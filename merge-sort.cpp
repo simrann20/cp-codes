@@ -1,4 +1,5 @@
-
+#include<iostream>
+using namespace std;
 void merge_sort(int [],int,int);
 void mergeSort(int input[], int size){
   merge_sort(input,0,size-1);       
