@@ -1,3 +1,7 @@
+#include <iostream>
+#include <queue>
+using namespace std;
+
 // Following is the Binary Tree node structure
 class BinaryTreeNode {
     public : 
@@ -29,9 +33,6 @@ if(val1<root->data&&val2<root->data)
 }
 
 }
-
-#include <iostream>
-#include <queue>
 
 template <typename T>
 class BinaryTreeNode {
