@@ -1,7 +1,7 @@
 #include <iostream>
-using namespace std;
 #include <vector>
 #include <queue>
+using namespace std;
 // Following is the given TreeNode structure.
 
 template <typename T>
