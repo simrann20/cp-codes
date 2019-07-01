@@ -4,7 +4,6 @@ void merge_sort(int [],int,int);
 void mergeSort(int input[], int size){
   merge_sort(input,0,size-1);       
 }
-
 void merge_sort(int arr[],int si,int ei)
 {
   if(si>=ei)
@@ -32,7 +31,6 @@ void merge_sort(int arr[],int si,int ei)
     arr[si+h]=s[h];
      delete []s;
 }
-
 int main() {
   int input[1000],length;
   cin >> length;
