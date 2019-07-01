@@ -1,5 +1,7 @@
-// Following is the Binary Tree node structure
- 
+#include <iostream>
+#include <queue>
+using namespace std;
+// Following is the Binary Tree node structure 
  template <typename T>
  class Node{
     public:
@@ -52,8 +54,7 @@ Node<int>* constructBST(BinaryTreeNode<int>* root) {
 }
 
 
-#include <iostream>
-#include <queue>
+
 
 template <typename T>
 class Node{
