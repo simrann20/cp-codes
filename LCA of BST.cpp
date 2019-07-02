@@ -1,7 +1,6 @@
 #include <iostream>
 #include <queue>
 using namespace std;
-
 // Following is the Binary Tree node structure
 class BinaryTreeNode {
     public : 
@@ -33,8 +32,6 @@ if(val1<root->data&&val2<root->data)
 }
 
 }
-
-
 BinaryTreeNode<int>* takeInput() {
     int rootData;
     //cout << "Enter root data : ";
@@ -66,7 +63,6 @@ BinaryTreeNode<int>* takeInput() {
     }
     return root;
 }
-
 int main() {
     BinaryTreeNode<int>* root = takeInput();
     int a, b;
