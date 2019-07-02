@@ -37,26 +37,6 @@ void printNodesAtDepthK(TreeNode<int>* root, int k) {
 }
 
 
-
-template <typename T>
-class TreeNode {
-public:
-    T data;
-    vector<TreeNode<T>*> children;
-    
-    TreeNode(T data) {
-        this->data = data;
-    }
-    
-    ~TreeNode() {
-        for (int i = 0; i < children.size(); i++) {
-            delete children[i];
-        }
-    }
-    
-};
-
-
 TreeNode<int>* takeInputLevelWise() {
     int rootData;
     cin >> rootData;
