@@ -14,7 +14,6 @@ class BinaryTreeNode {
         right = NULL;
     }
 };
-
 void helper(BinaryTreeNode<int> *root, int k, int a[],int s) {
    
   if(root==NULL||k<0)
@@ -36,8 +35,6 @@ void helper(BinaryTreeNode<int> *root, int k, int a[],int s) {
   s++;
    helper(root->left,  k-root->data,temp, s) ;
    helper(root->right, k-root->data ,temp,s) ;
-
-  
 }
 void rootToLeafPathsSumToK(BinaryTreeNode<int> *root, int k) 
 {     
@@ -45,8 +42,6 @@ void rootToLeafPathsSumToK(BinaryTreeNode<int> *root, int k)
   helper(root,k,a,0);
    
 }
-
-
 BinaryTreeNode<int>* takeInput() {
     int rootData;
     //cout << "Enter root data : ";
@@ -86,5 +81,3 @@ int main() {
     rootToLeafPathsSumToK(root, k);
     delete root;
 }
-
-
