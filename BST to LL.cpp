@@ -13,7 +13,6 @@ using namespace std;
         this -> next = NULL;
     }
  };
- 
  class BinaryTreeNode {
  public :
  T data;
@@ -26,8 +25,6 @@ using namespace std;
  right = NULL;
  }
  };
-
-
 Node<int>* constructBST(BinaryTreeNode<int>* root) {
   
     if(root==NULL)
@@ -52,35 +49,6 @@ Node<int>* constructBST(BinaryTreeNode<int>* root) {
   return a;
  
 }
-
-
-
-
-template <typename T>
-class Node{
-public:
-    T data;
-    Node<T> *next;
-    Node(T data){
-        this -> data = data;
-        this -> next = NULL;
-    }
-};
-
-template <typename T>
-class BinaryTreeNode {
-    public : 
-    T data;
-    BinaryTreeNode<T> *left;
-    BinaryTreeNode<T> *right;
-
-    BinaryTreeNode(T data) {
-        this -> data = data;
-        left = NULL;
-        right = NULL;
-    }
-};
-
 BinaryTreeNode<int>* takeInput() {
     int rootData;
     //cout << "Enter root data : ";
@@ -112,14 +80,11 @@ BinaryTreeNode<int>* takeInput() {
     }
     return root;
 }
-
 int main() {
     BinaryTreeNode<int>* root = takeInput();
     Node<int>* head = constructBST(root);
     while(head != NULL) {
         cout << head -> data << " ";
         head = head -> next;
-    }
-    
+    } 
 }
-
