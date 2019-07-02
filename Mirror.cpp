@@ -1,17 +1,6 @@
 #include <iostream>
 #include <queue>
 using namespace std;
-void mirrorBinaryTree(BinaryTreeNode<int>* root) {
-    
-    if(root==NULL)
-      return ;  
-  BinaryTreeNode<int>* t=root->left;
-         root->left=root->right;
-         root->right=t;
-  mirrorBinaryTree( root->left);
-  mirrorBinaryTree( root->right); 
-}
-
 template <typename T>
 class BinaryTreeNode {
     public : 
@@ -25,6 +14,18 @@ class BinaryTreeNode {
         right = NULL;
     }
 };
+void mirrorBinaryTree(BinaryTreeNode<int>* root) {
+    
+    if(root==NULL)
+      return ;  
+  BinaryTreeNode<int>* t=root->left;
+         root->left=root->right;
+         root->right=t;
+  mirrorBinaryTree( root->left);
+  mirrorBinaryTree( root->right); 
+}
+
+
 BinaryTreeNode<int>* takeInput() {
     int rootData;
     //cout << "Enter root data : ";
@@ -56,7 +57,6 @@ BinaryTreeNode<int>* takeInput() {
     }
     return root;
 }
-
 void printLevelATNewLine(BinaryTreeNode<int> *root) {
 		queue<BinaryTreeNode<int>*> q;
 		q.push(root);
