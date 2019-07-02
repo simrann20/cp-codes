@@ -9,15 +9,6 @@ public:
         this->next=NULL;
     }
 };
-class node{
-public:
-    int data;
-    node * next;
-    node(int data){
-        this->data=data;
-        this->next=NULL;
-    }
-};
 node* arrange_LinkedList(node* head)
 {
     
@@ -69,16 +60,6 @@ node* arrange_LinkedList(node* head)
   return oh;
 
 }
-
-class node{
-public:
-    int data;
-    node * next;
-    node(int data){
-        this->data=data;
-        this->next=NULL;
-    }
-};
 
 node* takeinput(){
     int data;
