@@ -2,7 +2,6 @@
 #include <algorithm>
 #include<climits>
 using namespace std;
-
 void intersection(int input1[], int input2[], int size1, int size2) {
    
         int i,j;
@@ -14,9 +13,7 @@ void intersection(int input1[], int input2[], int size1, int size2) {
         input2[j]=INT_MAX;
         cout<<input1[i]<<endl;
      break;
-    }
-    
- 
+    } 
   }
 }
 int main() {
@@ -37,11 +34,6 @@ int main() {
 	
 	
 	intersection(input1,input2,size1,size2);
-
-		
-	return 0;
-}
-
-
-  
+return 0;
+}  
 }
