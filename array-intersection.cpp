@@ -3,7 +3,22 @@
 #include<climits>
 using namespace std;
 
-
+void intersection(int input1[], int input2[], int size1, int size2) {
+   
+        int i,j;
+  for(i=0;i<size1;i++)
+  {
+    for(j=0;j<size2;j++)
+    
+    { if(input1[i]==input2[j]) {
+        input2[j]=INT_MAX;
+        cout<<input1[i]<<endl;
+     break;
+    }
+    
+ 
+  }
+}
 int main() {
 
 	int size1,size2;
@@ -27,21 +42,6 @@ int main() {
 	return 0;
 }
 
-void intersection(int input1[], int input2[], int size1, int size2) {
-   
-        int i,j;
-  for(i=0;i<size1;i++)
-  {
-    for(j=0;j<size2;j++)
-    
-    { if(input1[i]==input2[j]) {
-        input2[j]=INT_MAX;
-        cout<<input1[i]<<endl;
-     break;
-    }
-    
- 
-  }
-}
+
   
 }
