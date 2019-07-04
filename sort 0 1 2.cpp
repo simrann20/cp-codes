@@ -1,10 +1,6 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-
-// arr - input array
-// n - size of array
-
 void sort012(int arr[], int n)  {  
        
   int i,j,k;
@@ -31,9 +27,7 @@ void sort012(int arr[], int n)  {
     
     }
     else
-      i++;
-   
-    
+      i++;  
   }
 }
 
