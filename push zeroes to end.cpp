@@ -1,30 +1,21 @@
 #include <iostream>
 using namespace std;
 void PushZeroesEnd(int arr[], int n){
-    /* Don't write main().
-     * Don't read input, it is passed as function argument.
-     * No need to return or print the output.
-     * Taking input and printing output is handled automatically.
-     */
   int a[1000000],i,j;
   for(i=0, j =0;i<n;i++)
   {
     if(arr[i]!=0) {
       a[j]=arr[i];
     	j++;
-    }
-   
+    } 
   }
- 
 for(;j<n;j++, i++)
   a[j]=0;
   
   for(i = 0; i < n; i++) {
     arr[i] = a[i];
   }
-
 }
-
 int main() {
 
 	int size;
