@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 int FindSortedArrayRotation(int arr[], int n) {
-    * Taking input
     int i,minindex,min;
   minindex=0;
   min=arr[0];
