@@ -6,7 +6,6 @@ int FindSecondLargest(int arr[], int n){
   max=arr[0];
   if(n<=1)
     return INT_MIN;
-  
   for(i=0;i<n;i++)
   {   if(arr[i]>max)
        max=arr[i];
@@ -17,24 +16,17 @@ int FindSecondLargest(int arr[], int n){
     if(arr[i]<max&&arr[i]>secmax)
     {
       secmax=arr[i];
-    }
-     
+    }    
 }
-  return secmax;
-  
+  return secmax;  
 }
-
 int main() {
 
 	int size;
 	cin>>size;
 	int *input=new int[1+size];	
-	
 	for(int i=0;i<size;i++)
 		cin>>input[i];
-	
 	cout<<FindSecondLargest(input,size);
-	
 	return 0;
-
 }
