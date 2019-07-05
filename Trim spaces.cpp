@@ -1,13 +1,7 @@
 #include <iostream>
-using namespace std;
 #include<string.h>
+using namespace std;
 void trimSpaces(char input[]) {
-  /*  Don't write main().
-   *  Don't read input, it is passed as function argument.
-   *  Don't print or return the output.
-   *  Change in the given input string itself.
-   *  Taking input and printing output is handled automatically.
-   */
       int i,j;
   int l=strlen(input);
   for(i=0;input[i]!='\0';)
