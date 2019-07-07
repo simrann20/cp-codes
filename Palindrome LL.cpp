@@ -1,5 +1,6 @@
 //Check if a linked list is a palindrome
 #include <iostream>
+using namespace std;
 class node{
 public:
     int data;
@@ -9,8 +10,6 @@ public:
         this->next=NULL;
     }
 };
-using namespace std;
-#include "solution.h"
 node* takeinput(){
     int data;
     cin>>data;
