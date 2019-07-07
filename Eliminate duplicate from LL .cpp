@@ -1,5 +1,6 @@
 //Eliminate duplicates from a sorted linked list
 #include <iostream>
+using namespace std;
 class node{
 public:
     int data;
@@ -9,8 +10,7 @@ public:
         this->next=NULL;
     }
 };
-using namespace std;
-#include "solution.h"
+
 node* takeinput(){
     int data;
     cin>>data;
