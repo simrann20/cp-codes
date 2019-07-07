@@ -39,6 +39,25 @@ void print(node *head)
     }
     cout<<endl;
 }
+node* eliminate_duplicate(node* head)
+{
+  if(head->next==NULL)
+    return head;
+   
+  node* c=eliminate_duplicate( head->next);
+     if(head->data==c->data)
+     {
+       return c;
+     }
+    else
+    {
+      head->next=c;
+      return head;
+    }
+ 
+  
+}
+
 int main(){
     node* head=takeinput();
     head=eliminate_duplicate(head);
