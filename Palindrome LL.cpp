@@ -37,7 +37,32 @@ void print(node *head)
         temp=temp->next;
     }
     cout<<endl;
-}
+} 
+  bool check_palindrome(node* head)
+  {   
+   if(head==NULL)
+    return true;
+    //write your code here
+  node*temp=head;
+    node*t=head;
+  node *prev=NULL;
+  while(t->next!=NULL)
+  {  prev=t;
+    t=t->next;
+  }
+    if(temp->data==t->data)
+    {
+      prev->next=NULL;
+      //delete t;
+         
+      return  check_palindrome(head->next);
+
+    }
+    else
+      return false;
+    
+  }
+
 int main()
 {
     node*head=takeinput();
