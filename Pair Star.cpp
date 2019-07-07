@@ -1,5 +1,6 @@
 #include <iostream>
 #include<cstring>
+using namespace std;
 void pairStar(char a[]) {
    
      int i;
