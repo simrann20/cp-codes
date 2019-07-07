@@ -37,6 +37,28 @@ void print(node *head)
     }
     cout<<endl;
 }
+
+node *reverse_linked_list_rec(node *head)
+{
+ 
+node*temp=head;
+  if(head->next==NULL)
+  {
+    return head;
+  }
+  node *s=reverse_linked_list_rec(head->next);
+ node* t=s;
+  while(t->next!=NULL)
+  {
+    t=t->next;
+  }
+  t->next=temp;
+  temp->next=NULL;
+     return s;
+
+}
+
+
 int main(){
     node* head=takeinput();
     head=reverse_linked_list_rec(head);
