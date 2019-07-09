@@ -1,9 +1,9 @@
 #include <iostream>
-using namespace std;
 #include <stack>
+using namespace std;
 
 void reverseStack(stack<int> &input, stack<int> &extra) {
-	// Write your code here
+
   if(input.size()<=1)
     return ;
 int x=input.top();
