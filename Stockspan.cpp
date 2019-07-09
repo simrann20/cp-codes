@@ -1,5 +1,5 @@
+#include<iostream>
 #include<stack>
-#include <iostream>
 using namespace std;
 
 int main() {
@@ -15,9 +15,7 @@ int main() {
     	cout << output[i] << " ";
     }
 }
-
 int* stockSpan(int *price, int size) {
-	// Write your code here
  int *out =new int [size];
   out[0]=1;
   
