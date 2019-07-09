@@ -1,6 +1,6 @@
 #include <iostream>
-using namespace std;
 #include <queue>
+using namespace std;
 
 void reverseQueue(queue<int> &q) {
   if(q.size()<=1)
