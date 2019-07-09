@@ -44,17 +44,4 @@ int* stockSpan(int *price, int size) {
      }
   }
    return out;
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 }
