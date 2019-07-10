@@ -1,3 +1,4 @@
+///this code is used to reverse a stack made using the C++ STL
 #include <iostream>
 #include <stack>
 using namespace std;
