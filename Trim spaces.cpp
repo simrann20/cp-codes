@@ -22,8 +22,6 @@ void trimSpaces(char input[]) {
   }
   
 }
-
-
 int main() {
     char input[1000000];
     cin.getline(input, 1000000);
