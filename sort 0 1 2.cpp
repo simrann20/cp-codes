@@ -1,3 +1,4 @@
+///this code is used to sort 0 1 2 in an array in the ascending order
 #include <iostream>
 #include <algorithm>
 using namespace std;
