@@ -1,3 +1,4 @@
+///This code is used to find out the second largest element in an array using the optimized approach
 #include <iostream>
 #include<climits>
 using namespace std;
