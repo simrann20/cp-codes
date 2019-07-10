@@ -1,3 +1,4 @@
+///this code is used to trim any spaces in a string and print it without spaces
 #include <iostream>
 #include<string.h>
 using namespace std;
