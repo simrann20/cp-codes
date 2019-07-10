@@ -1,3 +1,4 @@
+//This code is used to find the pair of elements in an array and replace them by a star
 #include <iostream>
 #include<cstring>
 using namespace std;
