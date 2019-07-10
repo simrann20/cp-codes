@@ -1,4 +1,5 @@
 /// Recursive approach 
+//this code is used to reverse a linked list
 #include <iostream>
 using namespace std;
 class node{
