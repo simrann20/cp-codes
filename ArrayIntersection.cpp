@@ -1,3 +1,4 @@
+//This code is used to find the array intersection elements using STL maps
 #include <iostream>
 #include <algorithm>
 #include <map>
