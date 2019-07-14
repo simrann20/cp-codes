@@ -13,8 +13,6 @@ using namespace std;
            m[key]=1;
          else
              m[key]++;
-   
-      
       }
      	int max=INT_MIN;
       int d;
