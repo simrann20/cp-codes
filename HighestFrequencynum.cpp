@@ -1,3 +1,4 @@
+//This code finds out the highest frequency number in an array
 #include<iostream>
 #include<climits>
 #include<unordered_map>
