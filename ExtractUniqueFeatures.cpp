@@ -1,4 +1,4 @@
-/// This code is used to extract unique features from a string using the STL implemented hashmaps
+/// This code is used to extract unique features from a string and remove duplicates using the STL implemented hashmaps
 #include<iostream>
 #include<string.h>
 #include<unordered_map>
