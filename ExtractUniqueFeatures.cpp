@@ -1,10 +1,10 @@
 #include<iostream>
-using namespace std;
 #include<string.h>
 #include<unordered_map>
 #include<vector>
+using namespace std;
 char* uniqueChar(char *str){
-    // Write your code here
+   
   char *s=new char[1000];
 unordered_map<char,int>m;
   int key,i;
@@ -35,4 +35,5 @@ int main() {
 	char input[1000000];
 	cin >> input;
 	cout << uniqueChar(input) << endl;
+	return 0
 }
