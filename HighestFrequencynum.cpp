@@ -1,13 +1,9 @@
 #include<iostream>
-using namespace std;
 #include<climits>
 #include<unordered_map>
+using namespace std;
 	int highestFrequency(int *input, int n){	 
 		
-	/* Don't write main().
-     	* the input array is already passed as function argument.
-     	* Taking input and printing output is handled automatically.
-     	*/
       int key;
       unordered_map<int,int>m;
       for(int i=0;i<n;i++)
