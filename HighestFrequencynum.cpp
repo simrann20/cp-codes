@@ -1,4 +1,4 @@
-//This code finds out the highest frequency number in an array
+//This code finds out the highest frequency number in an array using STL implementation of hashmaps
 #include<iostream>
 #include<climits>
 #include<unordered_map>
