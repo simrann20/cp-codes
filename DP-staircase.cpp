@@ -1,3 +1,4 @@
+///this code is used for printing the min no. of steps used for going to a particular step in a staircase using DP
 #include<iostream>
 #include<climits>
 using namespace std;
