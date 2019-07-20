@@ -1,3 +1,4 @@
+//This code is used to find out the no. of balanced Binary Trees 
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -10,7 +11,6 @@ int balancedBTs(int h) {
     output[0] = 1;
     output[1] = 1;
     for(int i = 2; i <= h; i++) {
-        //output[i] = output[i-1] * output[i-1] + 2 * output[i-1] * ourput[i-2];
     
         int x = output[i-1];
         int y = output[i-2];
