@@ -1,3 +1,4 @@
+#this code is used to lcs of a string using DP 
 #include<iostream>
 #include<cstring>
 using namespace std;
